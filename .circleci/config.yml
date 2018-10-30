@@ -8,5 +8,5 @@ jobs:
           name: Pull Newman Docker image
           command: docker pull postman/newman_ubuntu1404
       - run:
-        name: Build and Run Postman Tests
-        command: $ docker run -t postman/newman_ubuntu1404 --url="https://www.getpostman.com/collections/8cd9953ac733975e7101"
+          name: Build and Run Postman Tests
+          command: $ docker run -t postman/newman_ubuntu1404 --url="https://www.getpostman.com/collections/8cd9953ac733975e7101"
