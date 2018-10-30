@@ -3,7 +3,6 @@ jobs:
   build:
     machine: true
     steps:
-      - checkout
       - run: 
           name: Pull Newman Docker image
           command: docker pull postman/newman_ubuntu1404
